@@ -1,0 +1,13 @@
+{
+    "app_title": "Titre",
+    "language": "Langue",
+    "welcome_message": "French Language Form!",
+    "days_since_release": "Form Description in FRENCH IS HERE. [{{number_of_days}}]",
+    "name": "Name in French",
+    "option1": "Option One in French",
+    "option2": "Option Two in French",
+    "option3": "Option Three in French",
+    "label": "Label in French",
+    "company": "Company in French",
+    "address": "Address in French"
+}

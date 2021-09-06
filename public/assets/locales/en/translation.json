@@ -1,0 +1,13 @@
+{
+  "app_title": "Title",
+  "language": "Language",
+  "welcome_message": "English Form",
+  "days_since_release": "ENGLISH FORM DESCRIPTION [{{number_of_days}}]",
+  "name": "Name in English",
+  "option1": "Option One in Englist",
+  "option2": "Option Two in English",
+  "option3": "Option Three in English",
+  "label": "Label in English",
+  "company": "Company in English",
+  "address": "Address in English"
+}

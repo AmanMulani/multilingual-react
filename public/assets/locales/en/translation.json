@@ -9,5 +9,11 @@
   "option3": "Option Three in English",
   "label": "Label in English",
   "company": "Company in English",
-  "address": "Address in English"
+  "address": "Address in English",
+  "dates": {
+    "fullDate": "The date is {{ date, short }}",
+    "localisedDate": "In my language, we write a date as: {{ date, long }}",
+    "weekDay": "Today is a {{ date, EEEE }}.",
+    "postedOn": "The message was posted {{ date, relative }} (that is {{ date, ago }})."
+  }
 }

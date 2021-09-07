@@ -9,5 +9,11 @@
     "option3": "Option Three in French",
     "label": "Label in French",
     "company": "Company in French",
-    "address": "Address in French"
+    "address": "Address in French",
+    "dates": {
+        "fullDate": "French {{ date, short }}",
+        "localisedDate": "French {{ date, long }}",
+        "weekDay": "French {{ date, EEEE }}.",
+        "postedOn": "French {{ date, relative }} (that is {{ date, ago }})."
+    }
 }

@@ -1,0 +1,19 @@
+{
+  "app_title": "German",
+  "language": "German",
+  "welcome_message": "Fill Form in German",
+  "days_since_release": "DESCRIPTION IN German [{{number_of_days}}]",
+  "name": "Name in German",
+  "option1": "Option One in German",
+  "option2": "Option Two in German",
+  "option3": "Option Three in German",
+  "label": "Label in German",
+  "company": "Company in German",
+  "address": "Address in German",
+  "dates": {
+    "fullDate": "German {{ date, short }}",
+    "localisedDate": "German {{ date, long }}",
+    "weekDay": "German {{ date, EEEE }}.",
+    "postedOn": "German {{ date, relative }} (that is {{ date, ago }})."
+  }
+}

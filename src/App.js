@@ -10,8 +10,12 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import { makeStyles } from '@material-ui/core/styles';
-import detectBrowserLanguage from 'detect-browser-language'
+import detectBrowserLanguage from 'detect-browser-language';
+import startOfMonth from "date-fns/startOfMonth";
 // import classNames from 'classnames'
+
+
+const date = new Date();
 
 
 const useStyles = makeStyles((theme) => ({
@@ -37,9 +41,9 @@ const languages = [
   },
 
   {
-    code: 'ar',
-    name: 'Arablic',
-    country_code: 'sau',
+    code: 'de',
+    name: 'German',
+    country_code: 'ger',
   },
 
 ]
@@ -69,6 +73,12 @@ function App() {
   return (
     <div className="container">
       <h1>{detectBrowserLanguage()}</h1>
+      <div>
+        <p>{t("dates.fullDate", { date })}</p>
+        <p>{t("dates.localisedDate", { date })}</p>
+        <p>{t("dates.weekDay", { date })}</p>
+        <p>{t("dates.postedOn", { date: startOfMonth(date) })}</p>
+      </div>
       <div className="language-select">
         <div className="d-flex justify-content-end align-items-center language-select-root">
           <div className="dropdown">
